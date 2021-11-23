@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages';
 import {Switch, Route} from 'react-router-dom';
-//import About from './pages/about';
 import Learn from './pages/learn';
 import Dropdown from './components/Dropdown';
 
