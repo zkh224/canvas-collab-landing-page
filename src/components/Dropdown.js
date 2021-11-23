@@ -9,8 +9,8 @@ const Dropdown = ({isOpen, toggle }) => {
     onClick={toggle}
     >
             <Link className='p-4 font-semibold uppercase' to='/'>Home</Link>
-            <Link className='p-4 font-semibold uppercase' to='/menu'>Menu</Link>
-            <a className='p-4 font-semibold uppercase' href='https://www.google.com/' target="_blank">Start</a>
+            <Link className='p-4 font-semibold uppercase' to='/learn'>Menu</Link>
+            <a className='p-4 font-semibold uppercase' href='https://www.google.com/' target="_blank" rel="noopener noreferrer">Start</a>
         </div>
     )
 }

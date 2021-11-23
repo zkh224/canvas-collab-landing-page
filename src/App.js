@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages';
 import {Switch, Route} from 'react-router-dom';
 //import About from './pages/about';
-import Menu from './pages/menu';
+import Learn from './pages/learn';
 import Dropdown from './components/Dropdown';
 
 function App() {                  // to toggle the grid
@@ -35,7 +35,7 @@ function App() {                  // to toggle the grid
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/menu' component={Menu} />
+        <Route path='/learn' component={Learn} />
         
       </Switch>
       <Footer />
