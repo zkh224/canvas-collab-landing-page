@@ -6,7 +6,7 @@ const Content = () => {
         <>
         <div className='container mx-auto flex flex-wrap p-10 justify-center'>
                 <p className="w-full my-2 text-3xl leading-tight text-red-400 text-center">Simple to use. A remote tool for anyone. </p>
-            <img className='w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink' src="https://images.unsplash.com/photo-1569172122301-bc5008bc09c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt='video of the whiteboard demostration'></img>
+            <img className='w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink' src="whiteboard.png" alt='video of the whiteboard demostration'></img>
         </div>
         
         <Cards />
