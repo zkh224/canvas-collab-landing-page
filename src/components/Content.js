@@ -5,6 +5,7 @@ import dare from "../images/dare.svg";
 import zahra from "../images/zahra.svg";
 
 const Content = () => {
+
   return (
     <>
       <div className="container mx-auto flex flex-wrap p-10 justify-center">
@@ -26,6 +27,13 @@ const Content = () => {
             src="https://images.unsplash.com/photo-1637517626826-a2e2ac630622?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt="first demostration of the whiteboard"
           />
+{/* =======
+    return (
+        <>
+        <div className='container mx-auto flex flex-wrap p-10 justify-center'>
+                <p className="w-full my-2 text-3xl leading-tight text-red-400 text-center">Simple to use. A remote tool for anyone. </p>
+            <img className='w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink' src="whiteboard.png" alt='video of the whiteboard demostration'></img>
+>>>>>>> d78912c05dcfd5b9298d235a631c75bd24e8eb03 */}
         </div>
 
         <div class="w-full overflow-hidden md:w-1/4">
@@ -77,7 +85,7 @@ const Content = () => {
               <p class="text-blue-600 text-xs">
                 LinkedIn -
                 <a
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   href="https://www.linkedin.com/in/naomyportillo/"
                 >
                   https://www.linkedin.com/in/naomyportillo/
@@ -86,14 +94,14 @@ const Content = () => {
 
               <p class="text-blue-600 text-xs">
                 Portfolio -
-                <a target="_blank" href="https://naomyportillo.me/">
+                <a target="_blank" rel="noreferrer" href="https://naomyportillo.me/">
                   https://naomyportillo.me/
                 </a>
               </p>
 
               <p class="text-blue-600 text-xs">
                 GitHub -
-                <a target="_blank" href="https://github.com/rosannaNaomy">
+                <a target="_blank" rel="noreferrer" href="https://github.com/rosannaNaomy">
                   https://github.com/rosannaNaomy
                 </a>
               </p>
@@ -116,7 +124,7 @@ const Content = () => {
                 <div class="w-1/4 h-full">
                   <img
                     class="flex-1 h-full rounded-lg"
-                    src="https://via.placeholder.com/42x42"
+                    src="https://via.placeholder.com/42x42" alt=""
                   />
                 </div>
               </div>
@@ -148,7 +156,7 @@ const Content = () => {
               <p class="text-blue-600 text-xs">
                 LinkedIn -
                 <a
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   href="http://linkedin.com/in/dare-oloruntoba-54a909210"
                 >
                   http://linkedin.com/in/dare-oloruntoba-54a909210
@@ -157,7 +165,7 @@ const Content = () => {
 
               <p class="text-blue-600 text-xs">
                 GitHub -
-                <a target="_blank" href="https://github.com/dretoba91">
+                <a target="_blank" rel="noreferrer" href="https://github.com/dretoba91">
                   https://github.com/dretoba91
                 </a>
               </p>
@@ -166,19 +174,19 @@ const Content = () => {
                 <div class="w-1/4 h-full">
                   <img
                     class="h-full rounded-lg"
-                    src="https://via.placeholder.com/42x42"
+                    src="https://via.placeholder.com/42x42" alt=""
                   />
                 </div>
                 <div class="w-1/4 h-full">
                   <img
                     class="flex-1 h-full rounded-lg"
-                    src="https://via.placeholder.com/42x42"
+                    src="https://via.placeholder.com/42x42" alt=""
                   />
                 </div>
                 <div class="w-1/4 h-full">
                   <img
                     class="flex-1 h-full rounded-lg"
-                    src="https://via.placeholder.com/42x42"
+                    src="https://via.placeholder.com/42x42" alt=""
                   />
                 </div>
               </div>
@@ -212,7 +220,7 @@ const Content = () => {
               <p class="text-blue-600 text-xs">
                 LinkedIn -
                 <a
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   href="https://www.linkedin.com/in/zahrakhan-2021/"
                 >
                   https://www.linkedin.com/in/zahrakhan-2021/
@@ -221,14 +229,14 @@ const Content = () => {
 
               <p class="text-blue-600 text-xs">
                 Portfolio -
-                <a target="_blank" href="https://zahrakhan.netlify.app/">
+                <a target="_blank" rel="noreferrer" href="https://zahrakhan.netlify.app/">
                   https://zahrakhan.netlify.app/
                 </a>
               </p>
 
               <p class="text-blue-600 text-xs">
                 GitHub -
-                <a target="_blank" href="https://github.com/zkh224">
+                <a target="_blank" rel="noreferrer" href="https://github.com/zkh224">
                   https://github.com/zkh224
                 </a>
               </p>
@@ -237,19 +245,19 @@ const Content = () => {
                 <div class="w-1/4 h-full">
                   <img
                     class="h-full rounded-lg"
-                    src="https://via.placeholder.com/42x42"
+                    src="https://via.placeholder.com/42x42" alt=""
                   />
                 </div>
                 <div class="w-1/4 h-full">
                   <img
                     class="flex-1 h-full rounded-lg"
-                    src="https://via.placeholder.com/42x42"
+                    src="https://via.placeholder.com/42x42" alt=""
                   />
                 </div>
                 <div class="w-1/4 h-full">
                   <img
                     class="flex-1 h-full rounded-lg"
-                    src="https://via.placeholder.com/42x42"
+                    src="https://via.placeholder.com/42x42" alt=""
                   />
                 </div>
               </div>

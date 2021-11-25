@@ -5,7 +5,12 @@ const Footer = () => {
     return (
       <section class="text-gray-700 bg-white body-font">
     <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
-        <Link to= '/' class="text-2xl font-bold leading-10  select-none uppercase">Logo<span class="text-indigo-600"></span></Link>
+        <Link to= '/' className="inline-flex gap-2">
+            <img className='h-10 w-10' src='logoCC.png' />
+            <div className='text-2xl font-bold leading-10  select-none uppercase'>
+                Logo
+            </div>
+        </Link>
         <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2021
         </p>
         <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
@@ -22,5 +27,10 @@ const Footer = () => {
 </section>
     )
 }
+
+//<Link className='inline-flex gap-2' to= '/' >
+//            <img className='h-10 w-10' src='logoCC.png' />
+//            <div className="text-2xl font-bold leading-10  select-none uppercase">Canvas Collab</div>
+//        </Link>
 
 export default Footer
