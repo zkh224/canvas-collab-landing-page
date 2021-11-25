@@ -5,7 +5,7 @@ const Navbar = ({toggle}) => {
     return (
         <nav className='flex justify-between items-center h-12 px-4 bg-white text-black relative shadow' role='navigation'>
           <Link className='inline-flex gap-2' to= '/'> 
-              <img className='h-10 w-10' src='logoCC.png' />
+              <img className='h-10 w-10' src='logoCC.png' alt='logo of Canvas Collab' />
             <div className='text-2xl font-bold leading-10 text-center uppercase'>Canvas Collab</div>
           </Link>
           <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>  

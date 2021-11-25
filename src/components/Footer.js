@@ -6,9 +6,9 @@ const Footer = () => {
       <section class="text-gray-700 bg-white body-font">
     <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
         <Link to= '/' className="inline-flex gap-2">
-            <img className='h-10 w-10' src='logoCC.png' />
-            <div className='text-2xl font-bold leading-10  select-none uppercase'>
-                Logo
+            <img className='h-10 w-10' src='logoCC.png' alt='logo of Canvas Collab' />
+            <div className='text-2xl font-bold leading-10  select-none uppercase' >
+                Canvas Collab
             </div>
         </Link>
         <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2021
