@@ -4,16 +4,16 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
       <section class="text-gray-700 bg-white body-font">
-    <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
-        <Link to= '/' className="inline-flex gap-2">
+    <div class="container flex flex-row items-center px-8 py-8 mx-auto max-w-7xl">
+        <Link to= '/' className="inline-flex items-center gap-2">
             <img className='h-10 w-10' src='logoCC.png' alt='logo of Canvas Collab' />
-            <div className='text-2xl font-bold leading-10  select-none uppercase' >
+            <div className='hidden sm:block text-2xl font-bold select-none uppercase' >
                 Canvas Collab
             </div>
         </Link>
-        <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2021
+        <p class="text-xs sm:text-sm text-gray-500 ml-2 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2021
         </p>
-        <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
+        <span class="inline-flex space-x-5 ml-auto sm:mt-0 justify-start">
 
             <a href="https://github.com/zkh224/canvas-collab-app" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-gray-500">
                 <span class="sr-only">GitHub</span>
