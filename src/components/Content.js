@@ -90,7 +90,7 @@ const Content = () => {
                     <img class="object-cover md:w-48 mx-auto py-2 rounded-full" src="/naomy.png" alt="Naomy Portillo, a UX developer who designed the landing page and the canvas app." />
                       <div class="px-6 py-4">
                         <div class="font-bold text-xl">Naomy Portillo</div>
-                          <div class="text-sm font-extrabold text-red-400 mb-2">Frontend Developer</div>
+                          <div class="text-sm font-extrabold text-red-400 mb-2">UX/UI Designer</div>
                         <p class="text-gray-700 md:text-sm leading-relaxed">
                           A self-taught UX/UI Designer and Android developer. The root of
                 her passion in code and UX started with animation. Tinkering
